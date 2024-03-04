@@ -1,0 +1,142 @@
+@import url('./reset.css');
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #33A8DB;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+p {
+    color: white;
+}
+
+span {
+    color: #33A8DB;
+}
+
+h2{
+    font-size: 2em;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    text-align: center;
+}
+
+#banner-content {
+    width: 600px;
+    margin: auto;
+}
+
+#banner-content img{
+    background-color: rgba(0, 0, 0, .2);
+    padding: 1.2em;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+#banner-content p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+#banner-content a button{
+    border: #33A8DB 2px solid;
+    background-color: transparent;
+    color: #33A8DB;
+    font-weight: bold;
+    font-size: 16px;
+    padding: .8em 2em .8em 2em;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+#banner-content a button:hover{
+    background-color: #33A8DB;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#content-course {
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#content-course div {
+    text-align: center;
+    width: 800px;
+    margin: 100px auto;
+}
+
+#content-course h2 + p {
+    width: auto;
+    margin-bottom: 24px;
+}
+
+#content-course .list-card {
+    padding: 16px;
+    margin: 0 auto 24px;
+    border: 2px solid #33A8DB;
+    border-radius: 100px;
+    width: 500px;
+    background-color: rgba(32, 32, 32);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#parallax{
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#parallax p {
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 230px;
+    text-shadow: 2px 2px #33A8DB;
+}
+
+#end-content {
+    text-align: center;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#end-content div{
+    margin: 100px auto;
+    width: 800px;
+}
+
+#end-content img {
+    margin-bottom: 24px;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #33A8DB;
+}
